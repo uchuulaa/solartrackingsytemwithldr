@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" crossorigin="anonymous">    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Enhanced Solar Panel System</title>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <img src="data:image/png;base64,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" alt="Solar Tracking System Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#benefits">Benefits</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Slideshow Section -->
+    <section id="slideshow">
+        <!-- Slides will be added dynamically using JavaScript -->
+    </section>
+
+   <!-- Body Content Sections -->
+<section id="home" class="container">
+    <div class="intro">
+        <h2>Revolutionizing Clean Energy</h2>
+        <p>Discover our state-of-the-art solar tracking system designed to maximize efficiency and sustainability.</p>
+        <button id="see-more-button" class="cta-button">See more</button>
+    </div>
+</section>
+
+<!-- About Us Section -->
+<section id="about" class="container">
+    <h2>About Us</h2>
+    <p>Welcome to Enhanced Solar Panel System, where innovation meets sustainability. Our mission is to revolutionize clean energy and lead the way towards a greener future. Meet our dedicated team of experts who are committed to making a positive impact on the environment.</p>
+    <div class="team-members">
+        <!-- Duplicate the template for additional team members -->
+        <template id="team-member-template">
+            <div class="team-member">
+                <img src="" alt="Team Member Image">
+                <h3></h3>
+                <p></p>
+                <div class="career"></div> <!-- Add the career element -->
+            </div>
+        </template>
+    </div>
+</section>
+
+<section id="features" class="container">
+    <h2>Key Features</h2>
+    <ul class="feature-list">
+        <li>
+            <i class="fas fa-sun feature-icon"></i>
+            <div class="feature-details">
+                <h3>Efficient Sun Tracking</h3>
+                <p>Our system uses advanced sun tracking technology to maximize energy absorption throughout the day.</p>
+            </div>
+        </li>
+        <li>
+            <i class="fas fa-battery-full feature-icon"></i>
+            <div class="feature-details">
+                <h3>Smart Energy Storage</h3>
+                <p>Integrated with cutting-edge energy storage solutions, ensuring a stable power supply even during low-light conditions.</p>
+            </div>
+        </li>
+        <li>
+            <i class="fas fa-mobile-alt feature-icon"></i>
+            <div class="feature-details">
+                <h3>Remote Monitoring</h3>
+                <p>Monitor and control your solar panel system remotely with our user-friendly mobile app, providing real-time performance data.</p>
+            </div>
+        </li>
+        <li>
+            <i class="fas fa-cloud-sun feature-icon"></i>
+            <div class="feature-details">
+                <h3>Weather Adaptability</h3>
+                <p>Equipped with weather sensors to adjust panel angles during adverse conditions, optimizing energy production and system durability.</p>
+            </div>
+        </li>
+        <!-- Add more features as needed -->
+    </ul>
+
+    <!-- Philosophy Section -->
+    <div id="philosophy" class="philosophy-section">
+        <h2>Our Philosophy</h2>
+        <p>Harnessing the Power of the Sun for a Sustainable Future
+            At Enhanced Solar, we're passionate about creating sustainable energy solutions by harnessing the power of the sun. With our cutting-edge solar panel systems, we empower you to embrace a greener and more sustainable future.
+            <div>✓ Innovative solutions for maximum efficiency</div>
+            <div>✓ Commitment to environmental responsibility</div>
+            <div>✓ Tailored solar solutions to meet your needs</div>
+            
+        Join us in embracing the power of the sun and build a brighter, more sustainable future together.</p>
+    </div>
+</section>
+
+
+<!-- Benefits Section -->
+<section id="benefits" class="container benefits-section">
+    <h2>Benefits</h2>
+    <div class="benefit">
+        <i class="fas fa-check-circle"></i>
+        <p>Environmentally Friendly: Reduce your carbon footprint and contribute to a sustainable future.</p>
+        <i class="fas fa-check-circle"></i>
+        <p>Environmentally Friendly: Reduce your carbon footprint and contribute to a sustainable future.</p>
+        <i class="fas fa-check-circle"></i>
+        <p>Environmentally Friendly: Reduce your carbon footprint and contribute to a sustainable future.</p>
+        <i class="fas fa-check-circle"></i>
+        <p>Environmentally Friendly: Reduce your carbon footprint and contribute to a sustainable future.</p>
+    
+    </div>
+    </div>
+    <!-- Add more benefits as needed -->
+</section>
+
+<!-- Services Section -->
+<section id="services" class="container services-section">
+    <h2>Our Services</h2>
+    <p>Explore our comprehensive range of services tailored to meet your solar energy needs. From installation to maintenance, we've got you covered.</p>
+</section>
+
+<!-- Gallery Section -->
+<section id="gallery">
+    <h2>Photo Gallery</h2>
+    <div class="photo-container">
+      <img src="https://8billiontrees.com/wp-content/uploads/2023/04/Solar-Panel-Sun-Tracker.png" alt="Photo 1">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMhc81-l8i-U5hyNbgYU7S4Ja4XfEPXZ4Dj3NEU1z7oghTtv7iVAZXvFO1w3IlBfNjcdM&usqp=CAU" alt="Photo 2">
+      <img src="https://8billiontrees.com/wp-content/uploads/2023/04/What-Will-A-100-Watt-Solar-Panel-Run-314x177.png" alt="Photo 3">
+    </div>
+  </section>
+
+<!-- Testimonials Section -->
+<section id="testimonials" class="container testimonials-section">
+    <h2>What Our Clients Say</h2>
+    <div class="testimonial">
+        <p>"Enhanced Solar Panel System has exceeded my expectations. It's a game-changer in the renewable energy landscape."</p>
+        <p>- Emily Johnson</p>
+    </div>
+    <div class="testimonial">
+        <p>"Enhanced Solar Panel System has exceeded my expectations. It's a game-changer in the renewable energy landscape."</p>
+        <p>- Emily Johnson</p>
+    </div>
+    <div class="testimonial">
+        <p>"kchvuhsdjvj;j;vbj ;obk' kxlbk  It's a game-changer in the renewable energy landscape."</p>
+        <p>- John Doe</p>
+    </div>
+    <!-- Add more testimonials as needed -->
+</section>
+
+<!-- Contact Us Section -->
+<section id="contact" class="contact-section container">
+    <h2>Contact Us</h2>
+    <p>We are passionate about revolutionizing the way we harness and utilize solar energy, and we're here to assist you every step of the way.
+
+        Reach out to our dedicated team today to learn more about our cutting-edge solar panel system and how it can benefit you. Whether you have inquiries, require technical support, or are interested in our services, we're here to provide you with the information you need.</p>
+    <div class="contact-details">
+        <p><span id="email">Headquarters:</span></p>
+        <p><div>
+            123 Main Street
+            Addis Ababa, Ethiopia</div>
+            <div>P.O.B 1000</div></p>
+        <p>Phone: <span id="phone">+1 (555) 123-4567</span></p>
+    </div>
+    <!-- Additional Feature: Contact Form -->
+        <div class="form-container">
+            <form>
+                <div class="form-group">
+                    <label for="name" class="form-label">Name:</label>
+                    <input type="text" id="name" class="form-input" required>
+                </div>
+    
+                <div class="form-group">
+                    <label for="email" class="form-label">Email:</label>
+                    <input type="email" id="email" class="form-input" required>
+                </div>
+    
+                <div class="form-group">
+                    <label for="message" class="form-label">Message:</label>
+                    <textarea id="message" class="form-input" rows="5" required></textarea>
+                </div>
+    
+                <div class="form-group">
+                    <input type="submit" value="Submit" class="form-submit">
+                </div>
+            </form>
+        </div>
+    
+</section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="social-media">
+            <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#privacy">Privacy Policy</a></li>
+                <li><a href="#terms">Terms of Service</a></li>
+                <li><a href="#faqs">FAQs</a></li>
+            </ul>
+        </nav>
+        <p>&copy; 2024 Your Solar Tracking System. All rights reserved.</p>
+    </footer>
+
+    <!-- Include the JavaScript at the end of the body -->
+    <script src="script.js"></script>
+
+</body>
+</html>
